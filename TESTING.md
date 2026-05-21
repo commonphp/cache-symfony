@@ -25,4 +25,6 @@ On Windows, use `vendor\bin\phpunit.bat`.
 
 ## Notes
 
-TODO: ADD NOTES ON WHAT THIS LIBRARY ACTUALLY DOES
+The test suite covers the CommonPHP cache driver contract, Symfony reserved-key mapping, driver-scoped clearing through key prefixes, expired item removal, configuration validation, and factory-created adapters.
+
+Filesystem adapter tests use a temporary directory under the operating system temp path.
